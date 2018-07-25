@@ -1,0 +1,243 @@
+<!--<div class="card nopad">-->
+<!--    <div class="cover"></div>-->
+<!--    <table class="data" id="dt-1">-->
+<!--        <tr class="title">-->
+<!--            <td class="fit"><label><input type="checkbox"><span><i class="md-icon">done</i></span></label></td>-->
+<!--            <td>Column 1</td>-->
+<!--            <td class="fit"></td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>-->
+<!--                <label><input type="checkbox" value="1"><span><i class="md-icon">done</i></span></label>-->
+<!--            </td>-->
+<!--            <td>Column 1</td>-->
+<!--            <td>-->
+<!--                <ul class="buttons ripple">-->
+<!--                    <li><a><i class="md-icon">edit</i></a></li>-->
+<!--                    <li><a><i class="md-icon">delete</i></a></li>-->
+<!--                </ul>-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>-->
+<!--                <label><input type="checkbox" value="2"><span><i class="md-icon">done</i></span></label>-->
+<!--            </td>-->
+<!--            <td>Column 1</td>-->
+<!--            <td>-->
+<!--                <ul class="buttons ripple">-->
+<!--                    <li><a><i class="md-icon">edit</i></a></li>-->
+<!--                    <li><a><i class="md-icon">delete</i></a></li>-->
+<!--                </ul>-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>-->
+<!--                <label><input type="checkbox" value="3"><span><i class="md-icon">done</i></span></label>-->
+<!--            </td>-->
+<!--            <td>Column 1</td>-->
+<!--            <td>-->
+<!--                <ul class="buttons ripple">-->
+<!--                    <li><a><i class="md-icon">edit</i></a></li>-->
+<!--                    <li><a><i class="md-icon">delete</i></a></li>-->
+<!--                </ul>-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--    </table>-->
+<!--    <script>-->
+<!--        $(document).ready(function() {-->
+<!--            $dt = new DataTable($("#dt-1"));-->
+<!--        })-->
+<!--    </script>-->
+<!--</div>-->
+<div class="cover secondary">
+	<div class="wrapper table">
+		<div class="row">
+			<div class="cell middle">
+				<span class="title">What up</span>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="columns pad s-no-pad">
+	<div class="col-6">
+		<div class="card">
+			<h4>Chips</h4>
+			<p>
+                <span class="chip" data-value="1" data-background="https://scontent.fmnl4-2.fna.fbcdn.net/v/t1.0-9/13782172_1358421930838990_5212037135744566957_n.jpg?oh=3fd2644f7aca11c00373de465e8187cb&oe=58396012" data-icon="background" data-hasButton="true">
+                    <span>Juvar Abrera</span>
+                </span>
+                <span class="chip" data-icon="letter" data-hasButton="true">
+                    <span>Juvar Abrera</span>
+                </span>
+                <span class="chip" data-icon="" data-hasButton="true">
+                    <span>Juvar Abrera</span>
+                </span>
+                <span class="chip" data-icon="letter" data-hasButton="true">
+                    <span>Juvar Abrera</span>
+                </span>
+				<span class="chip" data-icon="letter" data-hasButton="true">
+                    <span>Juvar Abrera</span>
+                </span>
+			</p>
+		</div>
+		<div class="card">
+			<h4>List</h4>
+			<ul class="list ripple">
+				<li>
+					<a href="#">
+						<div class="cell fit"><i class="md-icon">face</i></div>
+						<div class="cell">
+							<span class="ptext">Juvar Abrera</span>
+							<span class="stext">Yey</span>
+						</div>
+					</a>
+					<a onclick="DialogBox.show()">
+						<i class="md-icon no-margin md-18">info</i>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="primary">Hehe</a>
+				</li>
+				<li>
+					<a href="#">Hehe</a>
+				</li>
+				<li>
+					<a href="#">Hehe</a>
+				</li>
+			</ul>
+		</div>
+		<div class="card">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consequuntur corporis esse exercitationem minima quidem repellat. Amet aperiam aspernatur, culpa cumque cupiditate dignissimos doloremque eveniet excepturi facilis ipsum iure maiores molestias nulla officia officiis possimus qui quibusdam quisquam repudiandae velit? Adipisci autem beatae commodi culpa cumque distinctio dolores ducimus eius enim et expedita inventore laborum, laudantium libero minus nam nemo nostrum omnis, pariatur perferendis, placeat possimus provident quae quas quis repellat sapiente sed sequi temporibus totam velit veniam voluptate voluptatum? Accusamus aspernatur odio quia reiciendis. Ad amet aspernatur consequatur delectus ex hic ipsum, magni, minus necessitatibus nihil optio porro saepe?</p>
+			<h4>Progress</h4>
+			<div class="progress">
+				<div class="indeterminate"></div>
+			</div>
+		</div>
+		<div class="card">
+			<h4>Hehe</h4>
+			<div class="data-action-card" data-tooltip-position="bottom">
+				<div class="table">
+					<div class="row">
+						<div class="cell middle">
+							<span class="data-label"></span>
+						</div>
+						<div class="cell fit">
+							<ul class="nav">
+								<li><a data-tooltip-text="Select all" onclick="$dt.selectAll();"><span><i class="md-icon">select_all</i></span></a></li>
+								<li><a data-tooltip-text="Deselect all" onclick="$dt.clearSelection();"><span><i class="md-icon">clear</i></span></a></li>
+								<li><a><span><i class="md-icon">more_vert</i></span></a>
+									<ul class="menu">
+										<li><a><span><i class="md-icon">delete</i>Delete</span></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<table class="data" id="dt-1">
+				<tr class="title">
+					<td class="fit">
+						<label><input type="checkbox"><span><i class="md-icon">done</i></span></label>
+					</td>
+					<td>Column 1</td>
+					<td class="fit"></td>
+				</tr>
+				<tr>
+					<td>
+						<label><input type="checkbox" value="1"><span><i class="md-icon">done</i></span></label>
+					</td>
+					<td>Column 1</td>
+					<td>
+						<ul class="buttons ripple">
+							<li><a><i class="md-icon">edit</i></a></li>
+							<li><a><i class="md-icon">delete</i></a></li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label><input type="checkbox" value="2"><span><i class="md-icon">done</i></span></label>
+					</td>
+					<td>Column 1</td>
+					<td>
+						<ul class="buttons ripple">
+							<li><a><i class="md-icon">edit</i></a></li>
+							<li><a><i class="md-icon">delete</i></a></li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label><input type="checkbox" value="3"><span><i class="md-icon">done</i></span></label>
+					</td>
+					<td>Column 1</td>
+					<td>
+						<ul class="buttons ripple">
+							<li><a><i class="md-icon">edit</i></a></li>
+							<li><a><i class="md-icon">delete</i></a></li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<ul class="pagination ripple" data-tooltip-position="top">
+				<li><a data-tooltip-text="First page" href="#" data-tooltip-text="First page"><i class="md-icon">first_page</i></a></li>
+				<li><a data-tooltip-text="Previous" href="#"><i class="md-icon">chevron_left</i></a></li>
+				<li>
+					<div class="cell">
+						<select name="page">
+							<option value="1">1</option>
+							<option value="2">2</option>
+						</select> of 2
+					</div>
+				</li>
+				<li><a data-tooltip-text="Next" href="#"><i class="md-icon">chevron_right</i></a></li>
+				<li><a data-tooltip-text="Last page" href="#"><i class="md-icon">last_page</i></a></li>
+			</ul>
+			<ul class="buttons right ripple" data-tooltip-position="top">
+				<li><a data-tooltip-text="Dump data" onclick="$dt.dumpData();" class="raised_button">Ok</a></li>
+			</ul>
+			<script>
+				$(document).ready(function() {
+					$dt = new DataTable($("#dt-1"));
+				});
+			</script>
+		</div>
+	</div>
+	<div class="col-6">
+		<div class="card" id="card-1">
+			<h4>Hello</h4>
+			<div class="cover"></div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, repellat.</p>
+			<form id="frm1" class="validate">
+				<div class="pad">
+					<label><span>Text</span><input type="text" required></label>
+					<label><span>Password</span><input type="password" min="5" max="10" required></label>
+					<label><span>Number</span><input type="number" min="5" required></label>
+					<label><span>Email</span><input type="email" required></label>
+					<label><span>Time</span><input type="time" required></label>
+					<label><span>Date</span><input type="date" required min="2016-09-10"></label>
+					<label class="switch"><input type="checkbox" required><span><i></i></span>Switch</label>
+					<label><span>Hello</span><select name="">
+							<option value="1">2</option>
+							<option value="3">4</option>
+						</select></label>
+					<label><span>Hello</span><textarea required></textarea></label>
+					<label><input type="radio" name="type"><i class="md-icon"></i>Hehe</label>
+					<label><input type="radio" name="type"><i class="md-icon"></i>Hehe</label>
+					<label><input type="radio" name="type"><i class="md-icon"></i>Hehe</label>
+					<label><input type="radio" name="type"><i class="md-icon"></i>Hehe</label>
+				</div>
+				<ul class="buttons right ripple">
+					<script>
+						$share = new Share();
+						$share.link = "http://www.google.com";
+						$share.to(["facebook", "url", "twitter"]);
+					</script>
+					<li><a onclick="$share.show();" class="raised_button">Share</a></li>
+					<li><input type="submit" class="raised_button" value="Hehe" disabled></li>
+				</ul>
+			</form>
+		</div>
+	</div>
+</div>
